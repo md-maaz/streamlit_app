@@ -19,7 +19,7 @@ data_list = data_list.set_index('Fruit')
 # picking the variables only to show in select 
 fruits_selected = streamlit.multiselect('Pick some fruits', list(data_list.index),['Avocado','Strawberries'])
 # fruits to show 
-fruits_to _show=data_list.loc[fruits_selected]
+fruits_to_show = data_list.loc[fruits_selected]
 
 streamlit.dataframe(data_list)
 
