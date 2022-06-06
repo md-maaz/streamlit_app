@@ -1,6 +1,6 @@
-pip install fbprophet
-pip install yfinance 
-pip install plotly 
+pip3 install fbprophet
+pip3 install yfinance 
+pip3 install plotly 
 
 import streamlit as st 
 from datetime import date 
